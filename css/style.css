@@ -102,6 +102,9 @@ section p {
     padding: 30px;
     
 }
+#sec4{
+  padding-bottom: 150px;
+}
 /* centering the footer */
 footer{
   position: absolute;
