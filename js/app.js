@@ -57,3 +57,13 @@ window.onscroll = () => {
     }
   });
   };
+  let isActive = false;
+  const burgerBtn = document.querySelector('.burger');
+  burgerBtn.addEventListener('click', ()=>{
+    if(!isActive){
+      navList.style.display='flex'
+    }else{
+      navList.style.display='none'
+    }
+    isActive=!isActive
+  })
